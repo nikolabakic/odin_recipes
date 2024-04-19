@@ -1,0 +1,15 @@
+html {
+  font-family: Roboto, arial;
+}
+body {
+  background-color: bisque;
+}
+header {
+  background-color: rgb(160, 60, 210);
+}
+footer {
+  background-color: rgb(160, 60, 210);
+}
+h1 {
+  color: #6ed23c;
+}
