@@ -8,8 +8,47 @@ header {
   background-color: rgb(160, 60, 210);
 }
 footer {
-  background-color: rgb(160, 60, 210);
+  background-color: hsl(280, 62%, 53%);
 }
 h1 {
   color: #6ed23c;
+  text-align: center;
+  display: block;
+}
+
+.pagintation {
+  text-align: center;
+}
+.pagintation a {
+  text-decoration: none;
+  padding: 8px 15px;
+  display: inline-block;
+  color: black;
+}
+.pagintation a.active {
+  background-color: #d2290a;
+}
+.pagintation a:hover:not(.active) {
+  background-color: rgb(43, 47, 50);
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  background-color: hsl(280, 62%, 60%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.nav-bar a {
+  color: bisque;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+.nav-bar a:hover {
+  background-color: hsl(280, 62%, 80%);
+}
+.nav-bar li {
+  float: left;
 }
